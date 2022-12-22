@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'proyecto006';
+  nombre = "Juan Carlos";
+  saldo = 100.50;
+  dias = ['domingo','lunes','martes','miercoles','jueves','viernes','sabado'];
+  articulos=[{
+    codigo:1,
+    descripcion:"papas",
+    precio:12.33
+  },
+  {
+    codigo:2,
+    descripcion:"manzanas",
+    precio:54
+  }];
+  fechaActual=new Date();
 }
